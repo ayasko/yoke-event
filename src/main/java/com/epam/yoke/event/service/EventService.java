@@ -5,10 +5,8 @@ import com.epam.yoke.event.mapper.EventMapper;
 import com.epam.yoke.event.model.EventStatus;
 import com.epam.yoke.event.model.rq.EventBody;
 import com.epam.yoke.event.model.rs.EventResponse;
-import com.epam.yoke.event.model.rs.NotifyEventResponse;
 import com.epam.yoke.event.repository.EventRepository;
 import java.util.List;
-import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
